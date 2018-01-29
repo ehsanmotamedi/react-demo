@@ -1,0 +1,8 @@
+label { display: block; margin: 50px auto; text-align: center; font-size: 30px; }
+input, select, button { display: block; margin: 5px auto; font-size: 50px; }
+.App { display: flex; justify-content: center; flex-direction: column; }
+.Form, .Result { display: flex; align-self: center; }
+.Result { margin: 50px 0; padding: 20px; font-size: 40px; background-color: #ccc; text-transform: uppercase; font-weight: bold; }
+.Result span { font-style: italic; }
+.Result span:before { content: open-quote; }
+.Result span:after { content: close-quote; }
